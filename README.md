@@ -17,46 +17,50 @@ Linea 3 -> Ejecutamos el proyecto.
 Para poder correr el proyecto debes realizar estas instrucciones:
 
 ```sh
+git clone
 cd app
+source <NombreDelAmbiente>/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
 
-Linea 1 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto.
-Linea 2 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto.
-Linea 3 -> Ejecutamos el proyecto.
+Linea 1 -> Clonar el proyecto
+Linea 2 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto.
+Linea 3 -> Activamos el entorno.
+Linea 4 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto.
+Linea 5 -> Ejecutamos el proyecto.
 
 
 
 # Nota recuerda crear tu propio entorno de desarrollo antes de instalar dependencias.
 
-###Verificar donde esta python y pip
+Verificar donde esta python y pip
 
 ```sh
 which python3
 which pip3
 ```
 
-###Si estas en linux o wsl debes instalar
+Si estas en linux o wsl debes instalar
 
 ```sh
 sudo apt install -y python3-venv
 ```
 
-###Luego para cada proyecto lo ideal es que tenga su propio ambiente moviendonos a cada carpeta haciendo ```cd app``` por ejemplo:
+Luego para cada proyecto lo ideal es que tenga su propio ambiente moviendonos a cada carpeta haciendo ```cd app``` por ejemplo:
 
 ```sh
 python3 -m venv <NombreDelAmbiente>
 ```
 Asegurate de cambiar "<NombreDelAmbiente>" por el nombre que le quieres poner a tu ambiente.
 
-###Despues debemos activar el ambiente:
+Despues debemos activar el ambiente:
 
 ```sh
 source <NombreDelAmbiente>/bin/activate
 ```
 
-###Para salir del ambiente virtual usamos:
+Para salir del ambiente virtual usamos:
 
 ```sh
 deactivate
