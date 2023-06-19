@@ -67,3 +67,5 @@ Para salir del ambiente virtual usamos:
 ```sh
 deactivate
 ```
+
+Tambien es importante tener en cuenta que si al entorno no le ponemos como nombre ```env``` entonces debemos agregar ese nombre que pongamos al .gitignore para evitar que se cargue dicha carpeta en el github.
