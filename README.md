@@ -24,11 +24,11 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-Linea 1 -> Clonar el proyecto
-Linea 2 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto.
-Linea 3 -> Activamos el entorno.
-Linea 4 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto.
-Linea 5 -> Ejecutamos el proyecto.
+Linea 1 -> Clonar el proyecto. <br>
+Linea 2 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto. <br>
+Linea 3 -> Activamos el entorno. <br>
+Linea 4 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
+Linea 5 -> Ejecutamos el proyecto. <br>
 
 
 
