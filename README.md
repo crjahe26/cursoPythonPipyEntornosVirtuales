@@ -8,9 +8,9 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-Linea 1 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto.
-Linea 2 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto.
-Linea 3 -> Ejecutamos el proyecto.
+Linea 1 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto. <br>
+Linea 2 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
+Linea 3 -> Ejecutamos el proyecto. <br>
 
 # App Project
 
@@ -19,6 +19,7 @@ Para poder correr el proyecto debes realizar estas instrucciones:
 ```sh
 git clone
 cd app
+python3 -m venv <NombreDelAmbiente>
 source <NombreDelAmbiente>/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
@@ -26,9 +27,10 @@ python3 main.py
 
 Linea 1 -> Clonar el proyecto. <br>
 Linea 2 -> Nos permite movernos a la carpeta en la que se encuentra dicho proyecto. <br>
-Linea 3 -> Activamos el entorno. <br>
-Linea 4 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
-Linea 5 -> Ejecutamos el proyecto. <br>
+Linea 3 -> Creamos el entorno. <br>
+Linea 4 -> Activamos el entorno. <br>
+Linea 5 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
+Linea 6 -> Ejecutamos el proyecto. <br>
 
 
 
