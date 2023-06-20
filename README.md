@@ -32,6 +32,11 @@ Linea 4 -> Activamos el entorno. <br>
 Linea 5 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
 Linea 6 -> Ejecutamos el proyecto. <br>
 
+En este proyecto creamos algunos archivos de docker, que nos ayudan a llevarnos todo a docker para aislar desde los modulos y librerías hasta el sistema operativo y de esta manera evitar problemas, algunos comandos utilizados son:
+
+* ```docker-compose up -d``` -> Este comando es usado para iniciar el contenedor de docker.
+* ```docker-compose exec app-csv bash``` -> Este comando es utilizado para ejecutar el contenedor desde una consola de bash
+
 # WebServer Project
 
 Para poder correr el proyecto debes realizar estas instrucciones:

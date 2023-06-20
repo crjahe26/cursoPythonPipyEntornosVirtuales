@@ -3,3 +3,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - .:/app # Con esto enlazamos el sistema de archivos a la instancia de docker.
