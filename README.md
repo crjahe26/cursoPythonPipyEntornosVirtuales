@@ -32,6 +32,18 @@ Linea 4 -> Activamos el entorno. <br>
 Linea 5 -> Nos permite instalar todas las dependecias que se necesitan en el proyecto. <br>
 Linea 6 -> Ejecutamos el proyecto. <br>
 
+# WebServer Project
+
+Para poder correr el proyecto debes realizar estas instrucciones:
+
+```sh
+git clone
+cd app
+python3 -m venv <NombreDelAmbiente>
+source <NombreDelAmbiente>/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
 
 
 # Nota recuerda crear tu propio entorno de desarrollo antes de instalar dependencias.
