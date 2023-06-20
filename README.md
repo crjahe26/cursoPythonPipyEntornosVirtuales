@@ -34,8 +34,11 @@ Linea 6 -> Ejecutamos el proyecto. <br>
 
 En este proyecto creamos algunos archivos de docker, que nos ayudan a llevarnos todo a docker para aislar desde los modulos y librerías hasta el sistema operativo y de esta manera evitar problemas, algunos comandos utilizados son:
 
+* ```docker-compose build``` -> Este comando se utiliza para construir nuestro contenedor.
 * ```docker-compose up -d``` -> Este comando es usado para iniciar el contenedor de docker.
 * ```docker-compose exec app-csv bash``` -> Este comando es utilizado para ejecutar el contenedor desde una consola de bash
+
+[Enlace de utilidad](https://collectednotes.com/barckcode/docker-cheat-sheet)
 
 # WebServer Project
 
