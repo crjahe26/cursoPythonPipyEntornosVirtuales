@@ -45,6 +45,7 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
+Para ejecutar el servidor en python usamos el comando ```uvicorn main:app --reload``` la flag reload es para que actualice los cambios que se van realizando.
 
 # Nota recuerda crear tu propio entorno de desarrollo antes de instalar dependencias.
 
